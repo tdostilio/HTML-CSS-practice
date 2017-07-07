@@ -1,0 +1,21 @@
+.banner {
+    background-color: rgb(59,89,152);
+    width: 100%;
+    color: white;
+    height: 43px;
+    display: flex;
+}
+
+.fb-icon {
+    size: fixed;
+    margin: 5px 0 5px 5px;
+    display: inline;
+}
+
+.search-bar {
+    margin: 7px 0 0px 15px;
+    height: 25px;
+    width: 35%;
+    display: inline;
+    border: 1px solid red;
+}
