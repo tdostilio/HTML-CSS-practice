@@ -78,20 +78,19 @@ body {
 }
 
 .left-column {
-    border: 1px solid red;
     width: 15%;
     height: 100%;
 }
 
 .news-feed {
     width: 45%;
-    border: 1px solid red;
+    border: 1px solid black;
     display: inline-block;
 }
 
 .right-column {
     width: 40%;
-    border: 1px solid red;
+    border: 1px solid black;
     display: inline-block;
 }
 
