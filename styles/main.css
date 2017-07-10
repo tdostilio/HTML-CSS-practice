@@ -84,14 +84,13 @@ body {
 
 .news-feed {
     width: 45%;
-    border: 1px solid black;
     display: inline-block;
 }
 
 .right-column {
     width: 40%;
-    border: 1px solid black;
     display: inline-block;
+    flex: right;
 }
 
 .options {
@@ -113,6 +112,7 @@ body {
 }
 .option-item:hover {
     background: white;
+    border: .25px solid rgb(219,219,224);
 }
 
 .option-icon {
@@ -123,15 +123,21 @@ body {
     clear: left;
 }
 
+.poster-box {
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: .25px solid rgb(219,219,224);
+}
+
 .post-box {
     background: white;
-    margin-top: 10px;
     list-style-type: none;
     text-align: left;
     padding-left: 0px;
+    margin-top: 0;
     background: rgb(245,246,248);
-    margin-right: 5px;
-    margin-left: 5px;
     padding-bottom: 5px;
     margin-bottom: 0;
 }
@@ -155,7 +161,6 @@ body {
 
 .status-box {
     background: white;
-    margin: 0 5px;
 }
 
 .profile-pic {
@@ -171,4 +176,140 @@ body {
     width: 80%;
     border-style: none;
     font-size: 14px;
+}
+
+.weather-box {
+    margin: 15px 5px;
+    background: white;
+    padding: 10px;
+    border: .25px solid rgb(219,219,224);
+}
+
+#weather-greeting {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#weather-forecast {
+    display: block;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 14px;
+    flex: left;
+    font-family: sans-serif;
+    
+}
+/*
+.rain-cloud {
+    flex: right;
+    margin-bottom: 0;
+}*/
+
+.newsfeed-content {
+    margin: 15px 5px;
+    background: white;
+    padding: 10px;
+    border: .25px solid rgb(219,219,224);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.author-name {
+    vertical-align: 170%;
+    color: rgb(51,79,145);
+    font-family: sans-serif;
+    align-content: center;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.where {
+    vertical-align: 170%;
+}
+.author-location {
+    vertical-align: 170%;
+    color: rgb(51,79,145);
+    font-family: sans-serif;
+}
+
+.content {
+    margin-left:70px;
+}
+
+.interaction-buttons {
+    border-top: .25px solid rgb(219,219,224);
+    margin-top: 10px;
+}
+.like {
+    color: rgb(66, 70, 76);
+    background: white;
+    font-size: 12px;
+    text-decoration: none;
+    border: none;
+}
+
+.like:hover {
+    text-decoration: underline;
+}
+
+.comment {
+    color: rgb(66, 70, 76);
+    background: white;
+    font-size: 12px;
+    text-decoration: none;
+    border: none;
+}
+
+.comment:hover {
+    text-decoration: underline;
+}
+
+.share {
+    color: rgb(66, 70, 76);
+    background: white;
+    font-size: 12px;
+    text-decoration: none;
+    border: none;
+}
+
+.share:hover {
+    text-decoration: underline;
+}
+
+.right-column {
+
+}
+.birthdays {
+    margin: 10px 5px;
+    background: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: .25px solid rgb(219,219,224);
+    font-family: sans-serif;
+    font-size: 12px;
+    max-width: 263px;
+    text-align: left;
+    vertical-align: 5px;
+    
+}
+
+.birthday-image {
+    margin-top: 3px;
+}
+
+.birthday-name {
+    color: rgb(52, 79, 145);
+}
+
+.birthday-text {
+    display: inline;
+    vertical-align: 3px;
+    margin-left: 5px;
+}
+
+.news {
+    margin-left: 5px;
 }
