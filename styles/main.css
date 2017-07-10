@@ -107,6 +107,7 @@ body {
     text-align: left;
     /*border: 1px solid black;*/
     font-size: 13px;
+    margin-right: 15px;
 
 
 }
@@ -129,9 +130,10 @@ body {
     text-align: left;
     padding-left: 0px;
     background: rgb(245,246,248);
-    padding-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .post-option {
@@ -142,7 +144,7 @@ body {
     font-size: 12px;
     font-style: sans-serif;
     font-weight: 600;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 .post-icon {
@@ -152,8 +154,8 @@ body {
 }
 
 .status-box {
-    border: 1px solid black;
-
+    background: white;
+    margin: 0 5px;
 }
 
 .profile-pic {
@@ -161,7 +163,12 @@ body {
     padding: 10px;
 }
 
+
 .status-input {
-    border: 1px solid red;
     display: inline;
+    vertical-align: 28px;
+    height: 20px;
+    width: 80%;
+    border-style: none;
+    font-size: 14px;
 }
